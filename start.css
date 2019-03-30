@@ -44,12 +44,12 @@ body {
   /* color: #ccc; */
 }
 
-/* MAIN STYLE */
-
-html, body {
+html, 
+body {
   height: 100%;
 }
 
+/* HEADER STYLE */
 header {
   position: relative;
   height: 100%;
@@ -115,16 +115,17 @@ header .intro h3 {
   margin-top: 20px;
 }
 
+/* MAIN STYLE */
 section {
   margin-top: 30px;
   text-align: center;
 }
 
-section>h2 {
+section > h2 {
   font-size: 40px;
 }
 
-section>p {
+section > p {
   margin-bottom: 30px;
   font-style: italic;
 }
@@ -133,7 +134,7 @@ section:nth-of-type(2n) h2 {
   margin-top: 40px;
 }
 
-section .layout>p {
+section .layout > p {
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -143,13 +144,13 @@ section>ul .iconfont {
   font-size: 100px;
 }
 
-section .service>li {
+section .service > li {
   width: 33.33%;
   float: left;
   padding: 10px 8px;
 }
 
-section>ul h3 {
+section > ul h3 {
   font-size: 24px;
 }
 
@@ -202,7 +203,7 @@ section:nth-of-type(2n+1) {
   margin-top: 40px;
 }
 
-section .about>li::after {
+section .about > li::after {
   content: '';
   display: block;
   clear: both;
@@ -214,34 +215,34 @@ section .about img {
   border: 4px solid rgb(31, 135, 217);
 }
 
-section .about>li {
+section .about > li {
   position: relative;
   margin-top: 40px;
 }
 
-section .about>li:nth-child(even) {
+section .about > li:nth-child(even) {
   padding-left: calc(50% - 90px);
   text-align: left;
 }
 
-section .about>li:nth-child(odd) {
+section .about > li:nth-child(odd) {
   padding-right: calc(50% - 90px);
   text-align: right;
 }
 
-section .about>li:nth-child(odd) img {
+section .about > li:nth-child(odd) img {
   float: right;
 }
 
-section .about>li:nth-child(even) img {
+section .about > li:nth-child(even) img {
   float: left;
 }
 
-section .about>li:nth-child(even) dl {
+section .about > li:nth-child(even) dl {
   margin-left: 200px;
 }
 
-section .about>li:nth-child(odd) dl {
+section .about > li:nth-child(odd) dl {
   margin-right: 200px;
 }
 
@@ -254,7 +255,7 @@ section .about dd:first-of-type {
   font-weight: bold;
 }
 
-section .about>li::before {
+section .about > li::before {
   content: '';
   display: inline-block;
   height: 40px;
@@ -265,23 +266,23 @@ section .about>li::before {
   background-color: rgb(31, 135, 217);
 }
 
-section .about>li:last-child {
+section .about > li:last-child {
   margin-bottom: 70px;
 }
 
-section .about>li:last-child::before {
+section .about > li:last-child::before {
   content: '';
   display: none;
-  height: 0px;
+  height: 0;
 }
 
-section .team>li {
+section .team > li {
   width: 33.33%;
   float: left;
   padding: 10px 8px;
 }
 
-section .team>li img {
+section .team > li img {
   border-radius: 50%;
   border: 8px rgba(31, 135, 217, 1) solid;
 }
@@ -347,7 +348,8 @@ section .wrap a {
   color: white;
 }
 
-.form, .message {
+.form, 
+.message {
   margin-top: 50px;
   float: left;
   width: 50%;
@@ -377,11 +379,12 @@ section .wrap a {
   letter-spacing: 1px;
 }
 
-.form input:focus, .message textarea:focus {
+.form input:focus,
+.message textarea:focus {
   border: 2px solid rgb(31, 135, 217);
 }
 
-/* footer style */
+/* FOOTER STYLE */
 
 footer {
   text-align: center;
@@ -396,12 +399,12 @@ footer::before {
   vertical-align: middle;
 }
 
-footer>ul>li {
+footer > ul > li {
   width: 33.33%;
   float: left;
 }
 
-footer .icon>li {
+footer .icon > li {
   display: inline-block;
   font-size: 30px;
   padding: 0 7px;
