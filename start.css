@@ -67,7 +67,8 @@ header .logo {
 }
 
 header .logo:hover {
-  color: rgb(31, 135, 217);
+  /*color: rgb(31, 135, 217);*/
+  opacity: 0.5;
 }
 
 header nav ul {
@@ -89,7 +90,8 @@ header ul a {
 }
 
 header ul a:hover {
-  background: rgb(31, 135, 217);
+  /*background: rgb(31, 135, 217);*/
+  opacity: 0.5;
 }
 
 .layout {
@@ -169,7 +171,7 @@ section .port figure {
   float: left;
   background: white;
   border-radius: 5px;
-  box-shadow: 0px 0px 0px rgba(206, 15, 15, 0.2);
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 section .port a {
@@ -285,6 +287,7 @@ section .team > li {
 section .team > li img {
   border-radius: 50%;
   border: 8px rgba(31, 135, 217, 1) solid;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 section .team h3 {
@@ -366,6 +369,7 @@ section .wrap a {
   border-radius: 5px;
   font-weight: bold;
   letter-spacing: 1px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .message textarea {
@@ -377,6 +381,7 @@ section .wrap a {
   border-radius: 5px;
   font-weight: bold;
   letter-spacing: 1px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .form input:focus,
